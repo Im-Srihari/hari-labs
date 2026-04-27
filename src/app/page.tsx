@@ -34,7 +34,7 @@ export default function Home() {
               Hari Labs
             </Link>
 
-            <nav className="flex gap-6 text-sm text-gray-600">
+            <nav className="flex gap-6 text-sm text-gray-700">
               <a href="#home" className="hover:text-red-600 transition">Home</a>
               <Link href="/works" className="hover:text-red-600 transition">Works</Link>
               <a href="#capabilities" className="hover:text-red-600 transition">Capabilities</a>
@@ -47,7 +47,7 @@ export default function Home() {
         <section id="home" className="max-w-5xl mx-auto text-center mt-24">
 
           {/* ✨ HOVER ANIMATION TITLE */}
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 flex justify-center gap-1 tracking-wider">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 flex justify-center gap-1 tracking-wider text-gray-900">
             {"HARI LABS".split("").map((char, index) => (
               <span
                 key={index}
@@ -69,7 +69,7 @@ export default function Home() {
             Building Real-Time AI Agents for Voice, Vision, and Automation
           </p>
 
-          <p className="text-gray-500 max-w-2xl mx-auto mb-8">
+          <p className="text-gray-600 max-w-2xl mx-auto mb-8">
             We design intelligent systems that listen, understand, and act in real time.
           </p>
         </section>
@@ -93,8 +93,8 @@ export default function Home() {
                 <p className="text-gray-900 font-medium">
                   Product Animation
                 </p>
-                <p className="text-sm text-gray-500">
-                  Custom 3D product animations designed for realistic visual presentation
+                <p className="text-sm text-gray-600">
+                  Custom 3D product animations crafted for realistic visual presentation
                 </p>
               </div>
             </div>
@@ -110,7 +110,7 @@ export default function Home() {
                 <p className="text-gray-900 font-medium">
                   Product Animation
                 </p>
-                <p className="text-sm text-gray-500">
+                <p className="text-sm text-gray-600">
                   High-quality animated visuals built using custom 3D models
                 </p>
               </div>
@@ -127,8 +127,8 @@ export default function Home() {
                 <p className="text-gray-900 font-medium">
                   Product Animation Showcase
                 </p>
-                <p className="text-sm text-gray-500">
-                  Realistic product animation workflows built from custom 3D assets
+                <p className="text-sm text-gray-600">
+                  Realistic product animation workflows developed using custom 3D assets
                 </p>
               </div>
             </div>
@@ -150,38 +150,38 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 gap-6">
             <div className="border p-6 rounded-xl hover:border-red-500 transition">
-              <h3 className="text-xl font-semibold mb-2">
+              <h3 className="text-xl font-semibold mb-2 text-gray-900">
                 Voice AI Agents
               </h3>
-              <p className="text-gray-500">
+              <p className="text-gray-600">
                 Real-time conversational AI systems.
               </p>
             </div>
 
             <div className="border p-6 rounded-xl hover:border-red-500 transition">
-              <h3 className="text-xl font-semibold mb-2">
+              <h3 className="text-xl font-semibold mb-2 text-gray-900">
                 Computer Vision
               </h3>
-              <p className="text-gray-500">
+              <p className="text-gray-600">
                 Intelligent visual systems for detection.
               </p>
             </div>
 
             <div className="border p-6 rounded-xl hover:border-red-500 transition">
-              <h3 className="text-xl font-semibold mb-2">
+              <h3 className="text-xl font-semibold mb-2 text-gray-900">
                 AI Automation
               </h3>
-              <p className="text-gray-500">
+              <p className="text-gray-600">
                 Automating workflows with AI.
               </p>
             </div>
 
             <div className="border p-6 rounded-xl hover:border-red-500 transition">
-              <h3 className="text-xl font-semibold mb-2">
+              <h3 className="text-xl font-semibold mb-2 text-gray-900">
                 3D + AI Experiences
               </h3>
-              <p className="text-gray-500">
-                3D models of physical products generated using photogrammetry techniques
+              <p className="text-gray-600">
+                High-fidelity 3D models of physical products generated using photogrammetry
               </p>
             </div>
           </div>
@@ -189,15 +189,15 @@ export default function Home() {
 
         {/* 🔥 CONTACT */}
         <section id="contact" className="max-w-3xl mx-auto mt-32 text-center">
-          <h2 className="text-3xl font-semibold mb-4">
+          <h2 className="text-3xl font-semibold mb-4 text-gray-900">
             Let’s Work Together
           </h2>
 
-          <p className="text-gray-500 mb-4">
+          <p className="text-gray-600 mb-4">
             Open to collaborations and incubation opportunities.
           </p>
 
-          <p className="font-medium">
+          <p className="font-medium text-gray-900">
             srihariks1004@gmail.com
           </p>
         </section>
