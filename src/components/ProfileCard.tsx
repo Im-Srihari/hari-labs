@@ -162,7 +162,7 @@ export default function ProfileCard({
     return (
         <div className="flex justify-center items-center py-10">
             <div
-                className="relative w-[340px] max-w-full"
+                className="relative w-full max-w-[340px] min-w-0"
                 style={{ perspective: '1000px' }}
                 onPointerMove={handlePointerMove}
                 onPointerLeave={resetCard}

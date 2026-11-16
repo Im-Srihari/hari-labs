@@ -114,7 +114,19 @@ export default function Home() {
           </div>
 
           {/* ABOUT ME FOREGROUND CONTENT */}
-          <div className="relative z-10 py-12">
+          <div className="
+    w-full
+    flex
+    flex-col
+    md:flex-row
+    justify-center
+    items-center
+    gap-8
+    md:gap-4
+    lg:gap-5
+    px-4
+    py-10
+">
 
             <h2 className="text-3xl font-semibold mb-10 text-center text-gray-900">
               About Us
