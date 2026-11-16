@@ -114,37 +114,37 @@ export default function Home() {
           </div>
 
           {/* ABOUT ME FOREGROUND CONTENT */}
-          <div className="
-    w-full
-    flex
-    flex-col
-    md:flex-row
-    justify-center
-    items-center
-    gap-8
-    md:gap-4
-    lg:gap-5
-    px-4
-    py-10
-">
 
-            <h2 className="text-3xl font-semibold mb-10 text-center text-gray-900">
-              About Us
-            </h2>
+          <h2 className="text-3xl font-semibold mb-8 text-center text-gray-900">
+            About Us
+          </h2>
 
-            <div className="flex justify-center items-center py-8">
-              <ProfileCard name='Srihari K S'
-                title='Co-Founder, Hari Labs'
-                handle='hari-labs'
-                status='Building Hari Labs'
-                statusColor='#2dd4bf'
-                contactText='Contact me'
-                avatarUrl='/images/srihari_photo.jpeg'
-                email='srihariks1004@gmail.com'
+          <div className="w-full flex flex-col items-center px-4 py-10">
+
+            {/* Responsive Profile Cards */}
+            <div className="
+        w-full
+        max-w-[720px]
+        grid
+        grid-cols-1
+        md:grid-cols-2
+        gap-6
+        place-items-center
+    ">
+
+              <ProfileCard
+                name="Srihari K S"
+                title="Co-Founder, Hari Labs"
+                handle="hari-labs"
+                status="Building Hari Labs"
+                statusColor="#2dd4bf"
+                contactText="Contact me"
+                avatarUrl="/images/srihari_photo.jpeg"
+                email="srihariks1004@gmail.com"
               />
 
-
-              <ProfileCard name="Narahari k s"
+              <ProfileCard
+                name="Narahari k s"
                 title="Founder, Hari Labs"
                 handle="second-person"
                 status="Building Hari Labs"
@@ -152,16 +152,14 @@ export default function Home() {
                 avatarUrl="/images/narahari.png"
                 theme="dark"
               />
+
             </div>
 
           </div>
 
         </section>
 
-        {/* About me PREVIEW */}
 
-        <div className="grid md:grid-cols-2 gap-8">
-        </div>
 
         {/* CAPABILITIES */}
         <section id="capabilities" className="max-w-5xl mx-auto mt-32">
